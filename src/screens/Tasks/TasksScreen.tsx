@@ -1,11 +1,12 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import { styles } from "./ProfileStyles"
+import { styles } from "./TasksStyles"
 
-export default function PerfilScreen() {
+export default function TasksScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>👩‍🚀 Perfil</Text>
+      <Text style={styles.text}>🛰️ Atividades</Text>
     </View>
   );
-};
+}
+
