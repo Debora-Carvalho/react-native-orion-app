@@ -5,7 +5,6 @@ import Header from '../../components/Header/Header';
 import { styles } from './ProfileStyles';
 
 export default function ProfileScreen() {
-    // Dados fictícios do usuário
     const user = {
         name: 'Ruth Carvalho',
         age: 28,

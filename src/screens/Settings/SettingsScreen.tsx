@@ -13,7 +13,7 @@ export default function SettingsScreen() {
             <ScrollView style={{width: "90%"}}>
                 <Text style={styles.title}>Configurações</Text>
 
-                {/* Conta */}
+                {/* conta */}
                 <View style={styles.section}>
                     <Text style={styles.sectionTitle}>Conta</Text>
                     <TouchableOpacity style={styles.option}>
@@ -30,7 +30,7 @@ export default function SettingsScreen() {
                     </TouchableOpacity>
                 </View>
 
-                {/* Notificações */}
+                {/* notificações */}
                 <View style={styles.section}>
                     <Text style={styles.sectionTitle}>Notificações</Text>
                     <TouchableOpacity style={styles.option}>
@@ -43,7 +43,7 @@ export default function SettingsScreen() {
                     </TouchableOpacity>
                 </View>
 
-                {/* Preferências */}
+                {/* preferências */}
                 <View style={styles.section}>
                     <Text style={styles.sectionTitle}>Preferências</Text>
                     <TouchableOpacity style={styles.option}>
@@ -56,7 +56,7 @@ export default function SettingsScreen() {
                     </TouchableOpacity>
                 </View>
 
-                {/* Sobre */}
+                {/* sobre */}
                 <View style={styles.section}>
                     <Text style={styles.sectionTitle}>Sobre o App</Text>
                     <TouchableOpacity style={styles.option}>
