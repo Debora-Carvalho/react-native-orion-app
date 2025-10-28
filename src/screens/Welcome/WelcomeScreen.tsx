@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, ImageBackground, Image, TouchableOpacity } from "react-native";
+import { View, Text, ImageBackground, Image, TouchableOpacity, StatusBar } from "react-native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { useNavigation } from "@react-navigation/native";
 import { RootStackParamList } from "../../navigation/StackRoutes";
@@ -41,6 +41,10 @@ export default function WelcomeScreen() {
                     </TouchableOpacity>
                 </View>
             </View>
+
+            <StatusBar   
+                barStyle="light-content" backgroundColor="#000"
+            />
         </ImageBackground>
     );
 }

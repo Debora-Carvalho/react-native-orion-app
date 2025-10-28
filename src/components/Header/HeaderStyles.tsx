@@ -7,7 +7,6 @@ export const styles = StyleSheet.create({
         flexDirection: "row",
         alignItems: "center",
         justifyContent: "space-between",
-        paddingHorizontal: 20,
         backgroundColor: "#0b0c2a",
     },
     profileImage: {
