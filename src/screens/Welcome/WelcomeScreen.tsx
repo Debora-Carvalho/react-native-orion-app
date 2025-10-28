@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet, ImageBackground, TouchableOpacity } from "react-native";
+import { View, Text, ImageBackground, TouchableOpacity } from "react-native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { useNavigation } from "@react-navigation/native";
 import { RootStackParamList } from "../../navigation/StackRoutes";
@@ -22,7 +22,7 @@ export default function WelcomeScreen() {
 
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigation.navigate("Tabs")}
+          onPress={() => navigation.navigate("Drawer")}
         >
           <Text style={styles.buttonText}>Começar</Text>
         </TouchableOpacity>
