@@ -46,13 +46,12 @@ export const styles = StyleSheet.create({
         backgroundColor: "#6C63FF",
         paddingVertical: 12,
         paddingHorizontal: 40,
-        marginBottom: 20,
-        gap: 20,
         borderRadius: 25,
     },
     buttonText: {
         color: "#fff",
         fontSize: 18,
-        fontWeight: 600,
+        fontWeight: 'bold',
+        marginRight: 10,
     },
 });

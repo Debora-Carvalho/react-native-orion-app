@@ -33,11 +33,11 @@ export default function WelcomeScreen() {
 
                 <View style={styles.containerButton}>
                     <TouchableOpacity
-                    style={styles.button}
-                    onPress={() => navigation.navigate("Drawer")}
+                        style={styles.button}
+                        onPress={() => navigation.navigate("Drawer")}
                     >
-                    <Text style={styles.buttonText}>Começar</Text>
-                    <Icon name="rocket-outline" size={25} color="#FFF" />
+                        <Text style={styles.buttonText}>Começar</Text>
+                        <Icon name="rocket-outline" size={25} color="#FFF" />
                     </TouchableOpacity>
                 </View>
             </View>
