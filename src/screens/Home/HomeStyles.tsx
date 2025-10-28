@@ -4,8 +4,8 @@ export const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: "center",
-        justifyContent: "space-between",
-        paddingVertical: 40,
+        justifyContent: "flex-start",
+        paddingVertical: 25,
         backgroundColor: "#0b0c2a",
     },
     text: {

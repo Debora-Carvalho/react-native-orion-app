@@ -18,9 +18,7 @@ export const styles = StyleSheet.create({
         borderColor: "#6C63FF",
     },
     logo: {
-        color: "#6C63FF",
-        fontSize: 20,
-        fontWeight: "bold",
-        letterSpacing: 1.2,
+        width: '25%',
+        height: 20,
     },
 });

@@ -14,8 +14,24 @@ const Drawer = createDrawerNavigator();
 export default function DrawerRoutes() {
     return (
         <Drawer.Navigator
-            initialRouteName="Tab"
-            screenOptions={{ headerShown: false, drawerPosition: "right" }}
+            initialRouteName="Início"
+            screenOptions={{
+                headerShown: false,
+                drawerPosition: "right",
+                drawerStyle: {
+                backgroundColor: "#0b0c2a", 
+                width: 240,
+                },
+                drawerActiveTintColor: "#6C63FF",
+                drawerInactiveTintColor: "#9fa0c5",
+                drawerLabelStyle: {
+                fontSize: 16,
+                },
+                drawerItemStyle: {
+                borderBottomWidth: 1,
+                borderBottomColor: "#1c1d44",
+                },
+            }}
         >
             <Drawer.Screen
                 name="Início"
