@@ -58,7 +58,7 @@ export default function DrawerRoutes() {
                 component={CoursesScreen}
                 options={{
                     drawerIcon: ({ color, size }) => (
-                        <Icon name="planet-outline" size={size} color={color} />
+                        <Icon name="book-outline" size={size} color={color} />
                     ),
                 }}
             />

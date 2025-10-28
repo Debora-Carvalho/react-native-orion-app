@@ -20,7 +20,6 @@ export default function ActivityCard({ title, level, duration, image, progress =
             <View style={styles.overlay}>
                 <Text style={styles.title}>{title}</Text>
 
-                {/* Informações de nível e duração */}
                 <View style={styles.infoContainer}>
                     <View style={styles.infoItem}>
                         <Icon name="rocket-outline" size={16} color="#fff" style={styles.icon} />
@@ -33,7 +32,6 @@ export default function ActivityCard({ title, level, duration, image, progress =
                     </View>
                 </View>
 
-                {/* Barra de progresso */}
                 <View style={styles.progressBackground}>
                     <View style={[styles.progressFill, { width: `${progress}%` }]} />
                 </View>

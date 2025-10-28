@@ -71,26 +71,4 @@ export const styles = StyleSheet.create({
         fontWeight: '600',
         marginBottom: 10,
     },
-
-    card: {
-        width: 250,
-        height: 180,
-        backgroundColor: '#1c1d44',
-        borderRadius: 20,
-        marginRight: 15,
-        justifyContent: 'center',
-    },
-
-    cardImage: {
-        width: '100%',
-        height: '100%',
-        borderRadius: 20,
-        resizeMode: 'cover',
-    },
-
-    cardTitle: {
-        color: '#fff',
-        fontSize: 16,
-        fontWeight: 'bold',
-    },
 });

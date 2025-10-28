@@ -23,7 +23,7 @@ export default function TabRoutes() {
           let iconName = "";
 
           if (route.name === "Início") iconName = "home-outline";
-          else if (route.name === "Cursos") iconName = "planet-outline";
+          else if (route.name === "Cursos") iconName = "book-outline";
           else if (route.name === "Atividades") iconName = "rocket-outline";
           else if (route.name === "Perfil") iconName = "person-outline";
 
